@@ -98,14 +98,21 @@ if [ -f "$DM_FILE" ]; then
 	cd $PKG_PATH && echo "diskman has been fixed!"
 fi
 
+<<<<<<< HEAD
 #修复luci-app-netspeedtest相关问题
+=======
+#修复99_netspeedtest文件残留问题
+>>>>>>> c0a5e81 (同步上游)
 if [ -d *"luci-app-netspeedtest"* ]; then
 	echo " "
 
 	cd ./luci-app-netspeedtest/
 
 	sed -i '$a\exit 0' ./netspeedtest/files/99_netspeedtest.defaults
+<<<<<<< HEAD
 	sed -i 's/ca-certificates/ca-bundle/g' ./speedtest-cli/Makefile
+=======
+>>>>>>> c0a5e81 (同步上游)
 
 	cd $PKG_PATH && echo "netspeedtest has been fixed!"
 fi
