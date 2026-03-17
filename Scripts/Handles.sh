@@ -26,6 +26,7 @@ if [ -d *"homeproxy"* ]; then
 	cd $PKG_PATH && echo "homeproxy date has been updated!"
 fi
 
+<<<<<<< HEAD
 #修改aurora菜单式样
 if [ -d *"luci-app-aurora-config"* ]; then
 	echo " "
@@ -48,6 +49,8 @@ if [ -d *"luci-app-aurora-config"* ]; then
 	cd $PKG_PATH && echo "theme-aurora has been fixed!"
 fi
 
+=======
+>>>>>>> 1e66e5a (update config)
 #修改qca-nss-drv启动顺序
 NSS_DRV="../feeds/nss_packages/qca-nss-drv/files/qca-nss-drv.init"
 if [ -f "$NSS_DRV" ]; then
