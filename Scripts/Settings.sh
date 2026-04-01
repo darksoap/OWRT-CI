@@ -67,8 +67,4 @@ if [[ "${WRT_TARGET^^}" == *"QUALCOMMAX"* ]]; then
 	fi
 	#其他调整
 	echo "CONFIG_PACKAGE_kmod-usb-serial-qualcomm=y" >> ./.config
-<<<<<<< HEAD
 fi
-=======
-fi
->>>>>>> 43189ff (update config)

@@ -8,10 +8,6 @@ CONFIG_PACKAGE_luci-app-tailscale=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
 CONFIG_PACKAGE_luci-app-smartdns=y
-<<<<<<< HEAD
-=======
-CONFIG_PACKAGE_luci-app-autoreboot=y
->>>>>>> 82b3593 (update config)
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
@@ -110,8 +106,4 @@ CONFIG_PACKAGE_sgdisk=y
 CONFIG_PACKAGE_usb-modeswitch=y
 CONFIG_PACKAGE_usbmuxd=y
 CONFIG_PACKAGE_usbutils=y
-<<<<<<< HEAD
 CONFIG_PACKAGE_xz-utils=y
-=======
-CONFIG_PACKAGE_xz-utils=y
->>>>>>> 43189ff (update config)

@@ -1,6 +1,2 @@
 *.txt text eol=lf
-<<<<<<< HEAD
 *.sh text eol=lf
-=======
-*.sh text eol=lf
->>>>>>> 82b3593 (update config)
